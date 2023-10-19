@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    border: 1px solid black;
+
+    a{
+        text-decoration: none;
+    }
+    .main-navigation, .social-media-links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        li {
+            margin-right: 15px;
+        }
+    }
+}
