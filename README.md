@@ -1,4 +1,4 @@
-# ResumeSite
+# Resume Site
 This site was created to host my resume publicly on the web. It was created using Angular.
 
 ## Dev environment setup
