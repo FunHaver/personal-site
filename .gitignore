@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+resume-site.tar.gz
 
 # Node
 /node_modules
