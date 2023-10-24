@@ -1,11 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'variables.scss';
 body {
     margin: 0;
-    background: rgb(35,57,91);
+    background: $background-blue;
 }
 
 h1, h2, h3, h4, h5, h6, li, p, span, a, label {
-    color: rgb(240,240,240);
+    color: $font-color;
     font-family: sans-serif;
 }
 

@@ -1,0 +1,11 @@
+<button (click)="toggleMenuVisibility()" [ngClass]="{'hamburger-menu': true, 'menu-not-activated': !menuVisibility, 'menu-activated': menuVisibility}">
+    <i [ngClass]="{'fa-solid':true, 'fa-bars': !menuVisibility, 'fa-xmark': menuVisibility}"></i></button>
+
+<nav class="mobile-menu" *ngIf="menuVisibility">
+    <ul>
+        <li><a (click)="toggleMenuVisibility()" [routerLink]="['/']">Home</a></li>
+        <li><a (click)="toggleMenuVisibility()" [routerLink]="['skills']">Skills</a></li>
+        <li><a (click)="toggleMenuVisibility()" [routerLink]="['resume']">Resume</a></li>
+        <li><a (click)="toggleMenuVisibility()" [routerLink]="['contact']">Contact</a></li>
+    </ul>
+</nav>

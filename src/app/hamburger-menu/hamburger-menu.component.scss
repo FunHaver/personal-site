@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+.hamburger-menu {
+    display: inline-block;
+    border: none;
+    width: 48px;
+    height: 48px;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.menu-not-activated{
+    background-color: $background-blue;
+    color: $font-color;
+}
+
+.menu-activated {
+    background-color: $highlight-color;
+    color: $background-blue;
+}
+
+.mobile-menu {
+    position: absolute;
+    left: 5px;
+    background-color: $highlight-color;
+    padding: 15px 0px 15px 15px;
+    max-width: calc(100vw - 35px);
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        margin-right: 15px;
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: $background-blue;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

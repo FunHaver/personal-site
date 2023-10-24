@@ -1,9 +1,11 @@
+@import '../../variables.scss';
+
 .skill-set-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     .skill-set-category {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $font-color;
         width: 30%;
         min-width: 300px;
     }
